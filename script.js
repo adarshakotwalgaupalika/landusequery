@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/parwanipur/Cadastral/refs/heads/main/Adarshakotwal.csv";
+const csvUrl = "https://raw.githubusercontent.com/adarshakotwalgaupalika/landusequery/refs/heads/main/Adarshakotwal.csv";
 let csvData = [];
 
 // Fetch CSV data on page load
@@ -99,5 +99,6 @@ function displayResults(results) {
     table.appendChild(tbody);
     resultsDiv.appendChild(table);
 }
+
 
 
